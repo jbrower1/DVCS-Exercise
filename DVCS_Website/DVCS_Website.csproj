@@ -190,6 +190,7 @@
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Pages\LogIn.aspx" />
+    <Content Include="Pages\Store.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -365,6 +366,13 @@
     </Compile>
     <Compile Include="Pages\LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Store.aspx.cs">
+      <DependentUpon>Store.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Store.aspx.designer.cs">
+      <DependentUpon>Store.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
